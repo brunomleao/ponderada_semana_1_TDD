@@ -77,10 +77,12 @@ import (
         "net/http"
 )
 
+// Esta função recebe um nome como argumento e retorna uma saudação personalizada.
 func SayHello(name string) string <span class="cov8" title="1">{
         return fmt.Sprintf("Hello %v. Welcome!", name)
 }</span>
 
+// Esta função verifica se um número é ímpar ou par.
 func OddOrEven(num int) string <span class="cov8" title="1">{
         criteria := math.Mod(float64(num), 2)
         if criteria == 1 || criteria == -1 </span><span class="cov8" title="1">{
@@ -89,6 +91,7 @@ func OddOrEven(num int) string <span class="cov8" title="1">{
         <span class="cov8" title="1">return fmt.Sprintf("%v is an even number", num)</span>
 }
 
+// Esta função simula uma verificação de saúde de uma página HTTP.
 func Checkhealth(writer http.ResponseWriter, req *http.Request) <span class="cov8" title="1">{
         fmt.Fprintf(writer, "health check passed")
 }</span>
