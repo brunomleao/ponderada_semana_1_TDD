@@ -1,4 +1,4 @@
-# Golang Testing with TDD
+# Atividade Ponderada Semana 1
 
 Este repositório contém a resolução da atividade ponderada proposta no card "Implementando TDD na Prática - 1", utilizando os exemplos do artigo "Golang Testing with TDD". O artigo explica como aplicar o Desenvolvimento Orientado a Testes (TDD) em Go.
 
